@@ -1,0 +1,89 @@
+
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    background-color: white;    
+    position: fixed;
+    width: 100%;
+    top: 0px;
+
+}
+
+.logo img{
+    width: 80px;
+    vertical-align: middle;
+}
+
+
+header ul li{
+    color: gray;
+    font-size: 20px;
+    display: inline;
+    /* width: 120px; */
+    padding: 10px 30px;
+    text-align: center;
+}
+
+header form form, input{
+    display: inline;
+}
+header form{
+    display: inline-block;
+    
+}
+.find{
+    display: inline-block;
+    width: 20px;
+}
+header form, input{
+    display: inline;
+    font-size: large;
+    vertical-align: middle;
+}
+.sbtn{
+    border: 0px;
+}
+#form{
+    display: inline-block;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+#sup{
+    background-color: lightgreen;
+    padding: 10px 30px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+}
+.container{
+    margin: 0px auto;
+    width: 50%;
+    background-color: seagreen;
+}
+.container img{
+
+    width: 100%;
+    display: block;
+    margin: 0px auto;   
+}
+.container span{
+    display: block;
+    padding: 20px 40px;
+}
+
+.container h1{
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.container p{
+    text-transform: capitalize;
+    font-size: larger;
+    text-align: justify;
+}
